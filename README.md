@@ -217,7 +217,7 @@ JSON
 Developed as part of the Natural Language Processing Project at **Myanmar Institute of Information Technology (MIIT)**.
 
 | Student ID | Name | Main Responsibility |
-| :--- | :--- | :--- |
+| :---- | :--- | :--- |
 | **2021-MIIT-CSE-032** | **May Myat Noe Phyu** | Dataset Collection, Normalization, B/I Segmentation Labels, POS Mappings |
 | **2021-MIIT-CSE-027** | **Lin Khant Min Maung** | Burmese Tokenization, Token Alignment, Segmentation Model Fine-Tuning & Evaluation |
 | **2021-MIIT-CSE-093** | **Yoon Moh Moh Aung** | POS Model Fine-Tuning, mBERT / BiLSTM-CRF Experiments, Per-Class Metrics |
