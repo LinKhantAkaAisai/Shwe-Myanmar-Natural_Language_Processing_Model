@@ -32,9 +32,6 @@ Burmese is a low-resource language where whitespace does not reliably indicate w
 ## 📐 System Architecture
 ---
 
-### Option 2: Clean ASCII Text Block
-
-If you prefer standard plain text inside a ````text ```` block without wide box-drawing characters:
 
 ```text
                ┌─────────────────────────┐
@@ -49,9 +46,9 @@ If you prefer standard plain text inside a ````text ```` block without wide box-
   └─────────┬─────────┘           └─────────┬─────────┘
             │                               │
             ▼                               ▼
-  ┌───────────────────┐           ┌───────────────────┐
+  ┌───────────────────┐           ┌─────────────────────┐
   │  Word Boundaries  │           │  POS Tag Annotations│
-  └─────────┬─────────┘           └─────────┬─────────┘
+  └─────────┬─────────┘           └─────────┬───────────┘
             │                               │
             └───────────────┬───────────────┘
                             ▼
