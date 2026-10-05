@@ -1,4 +1,4 @@
-# 🇲🇲 Shwe Myanmar (ရွှေမြန်မာ)
+# Shwe Myanmar (ရွှေမြန်မာ)
 > **Burmese Text Analysis and Annotation System**  
 > *AI-assisted Word Segmentation and Part-of-Speech (POS) Tagging using Fine-Tuned Transformers & Multilingual BERT.*
 
@@ -8,21 +8,6 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-18.0-61dafb?logo=react)](https://react.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
----
-
-## 📌 Table of Contents
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
-- [Dataset & Preprocessing](#-dataset--preprocessing)
-- [Model Performance & Evaluation](#-model-performance--evaluation)
-- [Tech Stack](#-tech-stack)
-- [Repository Structure](#-repository-structure)
-- [Installation & Local Setup](#-installation--local-setup)
-- [API Documentation](#-api-documentation)
-- [Contributors & Team Roles](#-contributors--team-roles)
-- [Citation & Acknowledgments](#-citation--acknowledgments)
 
 ---
 
