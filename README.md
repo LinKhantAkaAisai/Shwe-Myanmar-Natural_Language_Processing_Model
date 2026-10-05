@@ -30,30 +30,18 @@ Burmese is a low-resource language where whitespace does not reliably indicate w
 ---
 
 ## 📐 System Architecture
-┌─────────────────────────┐
-                   │   Raw Burmese Text      │
-                   └────────────┬────────────┘
-                                │
-                ┌───────────────┴───────────────┐
-                ▼                               ▼
-   ┌────────────────────────┐      ┌────────────────────────┐
-   │   Segmentation Model   │      │    POS Tagging Model   │
-   │  (Transformer Encoder) │      │   (Fine-Tuned mBERT)   │
-   └────────────┬───────────┘      └────────────┬───────────┘
-                │                               │
-                ▼                               ▼
-   ┌────────────────────────┐      ┌────────────────────────┐
-   │    Word Boundaries     │      │     POS Tag Annot.     │
-   └────────────┬───────────┘      └────────────┬───────────┘
-                │                               │
-                └───────────────┬───────────────┘
-                                ▼
-                   ┌─────────────────────────┐
-                   │  Combined UI Output /   │
-                   │    JSON API Response    │
-                   └─────────────────────────┘
+```mermaid
+flowchart TD
+    A[Raw Burmese Text] --> B[Segmentation Model<br/><i>Transformer Encoder</i>]
+    A --> C[POS Tagging Model<br/><i>Fine-Tuned mBERT</i>]
+    
+    B --> D[Word Boundaries]
+    C --> E[POS Tag Annotations]
+    
+    D --> F[Combined UI Output / JSON API Response]
+    E --> F
 
-
+```  
 ---
 
 ## 📊 Dataset & Preprocessing
