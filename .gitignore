@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Large datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated/processed data
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models
+models/segmentation/*
+!models/segmentation/.gitkeep
+
+models/pos/*
+!models/pos/.gitkeep
+
+models/joint/*
+!models/joint/.gitkeep
+
+# Results if large
+results/*.png
+results/*.csv
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+
+backend/models/pos/model.safetensors
+backend/models/segmentation/model.safetensors

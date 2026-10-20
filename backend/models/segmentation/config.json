@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "TransformerSegmenter"
+  ],
+  "model_type": "transformer_segmenter",
+  "vocab_size": 1401,
+  "num_classes": 3,
+  "d_model": 128,
+  "nhead": 4,
+  "num_layers": 2,
+  "max_len": 256,
+  "id2label": {
+    "0": "<PAD>",
+    "1": "B",
+    "2": "I"
+  },
+  "label2id": {
+    "<PAD>": 0,
+    "B": 1,
+    "I": 2
+  }
+}
