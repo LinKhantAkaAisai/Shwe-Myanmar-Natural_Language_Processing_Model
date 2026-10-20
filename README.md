@@ -225,5 +225,36 @@ JSON
   ]
 }
 
+## 📥 Model Weights Setup
 
+Because the pre-trained model files (`model.safetensors`) exceed GitHub's file size limits, they are hosted externally. Follow the steps below to download and set them up locally:
+
+### 1. Download Model Files
+Access the shared Google Drive folder via the link below and download both model files:
+👉 **[Google Drive Model Weights Folder](https://drive.google.com/drive/folders/1ngGmZxsug9Gvb3n5Vr8cIc0TJOC5AP7o?usp=sharing)**
+
+### 2. Rename and Place the Files
+Once downloaded, place and rename the files into their respective directories inside your project structure:
+
+* **Part-of-Speech (POS) Model:**
+  * Downloaded file: `model(pos).safetensors`
+  * Rename to: `model.safetensors`
+  * Move to: `backend/models/pos/model.safetensors`
+
+* **Segmentation Model:**
+  * Downloaded file: `model(seg).safetensors`
+  * Rename to: `model.safetensors`
+  * Move to: `backend/models/segmentation/model.safetensors`
+
+### Directory Tree Verification
+Your `backend/models/` folder should look like this before running the application:
+```text
+backend/
+└── models/
+    ├── pos/
+    │   ├── config.json
+    │   └── model.safetensors       <-- Place renamed POS model here
+    └── segmentation/
+        ├── config.json
+        └── model.safetensors       <-- Place renamed Segmentation model here
   
